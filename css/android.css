@@ -1,0 +1,259 @@
+/* ESTILOS PARA ANDROID O TAMAÑO MENOS DE 1023PX. MEDIA QUERY */
+@media(max-width: 1023px){
+    #botones-max{
+     left: 0;
+     margin: 0;
+     bottom: 0;
+    }
+    #cerrar-bar{
+        display: none;
+    }
+    #botones-max i span{
+        top: 42px;
+        font-weight: normal;
+        margin-left: 0;
+    }
+   .botones{
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     background: black;
+     border-radius: 0;
+      border: none;
+      margin: 0;
+      left: 0;
+      height: 100%;
+      box-shadow: 0 -3px 10px 0 white;
+   }
+   .botones i{
+    color: white;
+    margin: 5px auto;
+    position: relative;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+ .botones i:hover{
+     background: var(--fondodos);
+     }
+   .barra-android{
+       display: none;
+   }
+   #name-name{
+       background: transparent;
+       display: flex;
+       position: absolute;
+       justify-content: center;
+       bottom: 0;
+       width: 100%;
+       height: 20px;
+       a{
+           padding: 3px;
+           text-decoration: none;
+           font-size: 10px;
+           display: flex;
+           justify-content: center;
+       }
+   }
+  #name-name a:hover{
+      padding: 0;
+      border-radius: 2px;
+  }  
+  #uno{
+    justify-content: center;
+  }
+  
+  .container-previo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+}
+.previo-previo{
+    margin: 0;
+}
+.previo{
+    width: 30%;
+    height: 150px;
+    position: relative;
+    margin:10px 10px 10px 0;
+}
+.carrusel {
+        width: 90%;
+        margin: 0 5px;
+    }
+.contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form, .location-image {
+        flex: 1 1 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .location-image img {
+        width: 100%;
+    }
+   a{
+       text-decoration: none;
+   }
+
+   .experience {
+    gap: 10px;
+}
+
+.trabajo {
+    flex: 1 1 calc(50% - 15px); 
+}
+.trabajo ul li {
+    margin-bottom: 5px;
+    color: #333;
+    list-style: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+.sub-alexander{
+    display: none;
+}
+}
+
+
+/* MENOS */
+@media(max-width: 560px){
+  .proyecto-items, .proyecto-item{
+       height: 60%;
+   }
+   #diseno-gra h2{
+       font-size: 1em;
+       }
+   .container-comen h3{
+       font-size: 1em;
+   }
+}
+
+
+/* MENOS */
+
+
+@media(max-width: 433px){
+   #proyectos-web h2{
+       font-size: 1em;
+   }
+   .proyecto-items, .proyecto-item{
+       height: 50%;
+   }
+   #gooo{
+    display: none;
+   }
+}
+
+/* MENOS */
+@media(max-width: 376px){
+   
+ .container-comen h3,p{
+     font-size: 10px;
+ }
+ }
+/* ESTILOS PARA PANTALLAS IGUAL O MAYOR A 1024PX*/
+@media(min-width: 1024px){
+    #name-name{
+        display: flex;
+        a{
+            text-decoration: none;
+        }
+    }
+ #mostrar-barra{
+      left: 0;
+       margin: 20px 0px;
+       display: none;
+       border-radius: 0 5px 5px 0;
+ }
+
+#botones-max{
+    bottom: 10px;
+    cursor: auto;
+    left: 1px;
+    border-radius: 4px;
+}
+#cerrar-bar{
+    display: block;
+}
+#botones-max i span{
+    opacity: 0;
+}
+.botones{
+    align-items: center;
+    position: fixed;
+}
+.botones a:hover{
+    background: var(--fondodos);
+    border-radius: 4px;
+    width: 20%;
+    position: relative;
+    left: 0;
+}
+.botones a:hover i{
+    position: relative;
+    left: 0;
+    margin: 0;
+}
+#botones-max a:hover span{
+    opacity: 1;
+}
+    .botones{
+        border: none;
+    }
+      .info-container {
+        flex-direction: row;
+    }
+    .personal-info, .details {
+        flex: 1;
+    }
+    .vista-comentarios{
+        width: 30%;
+    }
+    .carrusel-comen{
+        gap:30px;
+    }
+    .certificate-item {
+        width: 30%; 
+    }
+    .certificados{
+       width: 350px;
+    }
+    .contact-container{
+        margin: auto 10px;
+    }
+ .contact-form input, .contact-form textarea{
+    padding: 20px;
+}
+.location-image {
+    flex: 1 1 45%;
+    height: 500px;
+}
+
+.location-image img {
+    border-radius: 4px;
+    width: 100%;
+    height: 98%;
+}
+
+}
+
+/* ESTILOS PARA PANTALLAS IGUAL O MAYOR A 2000PX*/
+
+@media(min-width: 2000px){
+ 
+   .carrusel{
+       flex: 0 0;
+   }
+
+}
